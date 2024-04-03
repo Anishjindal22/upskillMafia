@@ -1,0 +1,12 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  height: 100vh;
+  margin: 5%;
+  grid-gap: 20px; /* Adjust this value to set the gap between containers */
+}
+
+.container {
+  border: 1px solid #ccc;
+  padding: 20px;
+}
