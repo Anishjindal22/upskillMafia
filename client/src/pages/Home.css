@@ -1,12 +1,16 @@
 .grid-container {
   display: grid;
-  grid-template-columns: 30% 70%;
+  grid-template-columns: 5% 30% 60%;
   height: 100vh;
   margin: 5%;
   grid-gap: 20px; /* Adjust this value to set the gap between containers */
+  height: 82vh;
 }
 
 .container {
   border: 1px solid #ccc;
   padding: 20px;
+}
+.container-one {
+  background-color: #6e00ff;
 }

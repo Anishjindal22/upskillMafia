@@ -1,8 +1,12 @@
 import React from "react";
 
+const handleOnSubmit = (e) => {
+  e.preventDefault();
+  console.log("submit");
+};
 const Signup = () => {
   return (
-    <form action="">
+    <form onSubmit={handleOnSubmit}>
       <input type="text" />
     </form>
   );
